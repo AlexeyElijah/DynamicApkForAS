@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.opticalix.testdynamicapk.MainActivity">
+    <item android:id="@+id/action_test_plugin_project"
+          android:orderInCategory="100"
+          android:title="@string/action_test_plugin_project"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/action_test"
+          android:orderInCategory="100"
+          android:title="@string/action_test"
+          app:showAsAction="never"/>
+</menu>
